@@ -5,6 +5,8 @@ const navLinks = Array.from(document.querySelectorAll('.nav-content-link'));
 const pageLinks = Array.from(document.querySelectorAll('.page-link'));
 const animatedBlock = Array.from(document.querySelectorAll('.animated'));
 const barItems = Array.from(document.querySelectorAll('.bar-fill'));
+const portfolioCards = Array.from(document.querySelectorAll('.card-wrap'));
+console.log(portfolioCards);
 
 let bottomOfNav = nav.offsetTop + nav.offsetHeight;
 
@@ -49,3 +51,4 @@ pageLinks.forEach(link => link.addEventListener('click', () => {
 }));
 
 navBtn.addEventListener('click', toggleNav);
+portfolioCards.forEach(card => card.addEventListener('click', () => card.classList.toggle('card-wrap-clicked')));

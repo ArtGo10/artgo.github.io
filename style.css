@@ -268,17 +268,7 @@
   position: relative;
   background-color: #fff;
   margin: 10px;
-}
-.card-wrap:hover .card-img {
-  opacity: 0.25;
-}
-.card-wrap:hover .card-title {
-  transform: translateY(70px);
-  opacity: 1;
-}
-.card-wrap:hover .card-link {
-  transform: translateY(-70px);
-  opacity: 1;
+  cursor: pointer;
 }
 .card-img {
   width: 350px;
@@ -310,12 +300,28 @@
   border: 2px solid #e31b6d;
   padding: 7px 14px;
   color: #616161;
+  visibility: hidden;
   opacity: 0;
   transition: 0.5s;
 }
 .card-link:hover {
   background-color: #e31b6d;
   color: #fff;
+}
+.card-wrap-clicked {
+  cursor: default;
+}
+.card-wrap-clicked .card-img {
+  opacity: 0.2;
+}
+.card-wrap-clicked .card-title {
+  transform: translateY(70px);
+  opacity: 1;
+}
+.card-wrap-clicked .card-link {
+  visibility: visible;
+  transform: translateY(-70px);
+  opacity: 1;
 }
 #contact {
   background-color: #252934;
@@ -353,7 +359,7 @@
   text-align: center;
 }
 .icon-item {
-  margin: 15px;
+  margin: 10px;
   list-style: none;
   width: 50px;
 }
