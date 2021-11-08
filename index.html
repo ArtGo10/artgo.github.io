@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>АrtemHoloven</title>
+</head>
+<body>
+	<header class="header flex" id="home">
+		<div class="flex">
+			<div class="header-text">
+				Hello, I'm <span class="header-text-name">Artem Holoven</span>.<br> I'm a Front-End web developer.
+			</div>
+			<div class="header-btn-link page-link" data-dest="about">
+				View my work <span class="header-btn-link-arrow">→</span>
+			</div>
+			<nav class="nav" id="nav">
+				<ul class="nav-content">
+					<li class="nav-content-link page-link active-link" data-dest="home">Home</li>
+					<li class="nav-content-link page-link" data-dest="about">About</li>
+					<li class="nav-content-link page-link" data-dest="portfolio">Portfolio</li>
+					<li class="nav-content-link page-link" data-dest="contact">Contact</li>
+				</ul>
+				<div class="nav-mobile-btn">
+					<div class="mobile-btn-bar"></div>
+					<div class="mobile-btn-bar"></div>
+					<div class="mobile-btn-bar"></div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main class="main-content">
+		<section class="section" id="about">
+			<div class="container flex">
+				<h2 class="section-title animated" data-animation="slide-in-left">About</h2>
+				<div class="section-title-bar animated" data-animation="slide-in-right" data-delay="0.5s"></div>
+				<div class="flex label-wrap">
+					<div class="flex bullet-wrap">
+						<div class="hex-wrapper animated" data-animation="flip-in" data-delay="0.2s">
+							<div class="hexagon">
+								<img class="hexagon-img" src="images/res.jpg" alt="responsive_img">
+							</div>
+						</div>
+						<div class="animated" data-animation="fade-in" data-delay="0.2s">
+							<h4 class="hexagon-title">Responsive</h4>
+							<div>My layouts will work on any device, big or small.</div>
+						</div>
+					</div>
+					<div class="flex bullet-wrap">
+						<div class="hex-wrapper animated" data-animation="flip-in" data-delay="0.4s">
+							<div class="hexagon">
+								<img class="hexagon-img" src="images/dyn.jpg" alt="dynamic_img">
+							</div>
+						</div>
+						<div class="animated" data-animation="fade-in" data-delay="0.4s">
+							<h4 class="hexagon-title">Dynamic</h4>
+							<div>Websites don't have to be static, I love making pages come to life.</div>
+						</div>
+					</div>
+				</div>
+				<div class="skills-wrapper">
+					<div class="flex about-me animated" data-animation="slide-in-left" data-delay="1s">
+						<img class="about-me-img" src="images/me.png" alt="my_img">
+						<p class="about-me-title">Who's this guy?</p>
+						<p class="about-me-desc">I'm a Front-End Developer. I have a passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
+					</div>
+					<div class="flex skills animated" data-animation="slide-in-right" data-delay="1s">
+						<div class="skills-bar flex">
+							<div class="skills-bar bar-fill">
+								<div class="bar-name flex">HTML</div>
+							</div>
+							<span class="bar-span">90%</span>
+						</div>
+						<div class="skills-bar flex">
+							<div class="skills-bar bar-fill">
+								<div class="bar-name flex">CSS</div>
+							</div>
+							<span class="bar-span">90%</span>
+						</div>
+						<div class="skills-bar flex">
+							<div class="skills-bar bar-fill">
+								<div class="bar-name flex">Bootstrap</div>
+							</div>
+							<span class="bar-span">70%</span>
+						</div>
+						<div class="skills-bar flex">
+							<div class="skills-bar bar-fill">
+								<div class="bar-name flex">JavaScript</div>
+							</div>
+							<span class="bar-span">80%</span>
+						</div>
+						<div class="skills-bar flex">
+							<div class="skills-bar bar-fill">
+								<div class="bar-name flex">JQuery</div>
+							</div>
+							<span class="bar-span">75%</span>
+						</div>
+						<div class="skills-bar flex">
+							<div class="skills-bar bar-fill">
+								<div class="bar-name flex">React</div>
+							</div>
+							<span class="bar-span">30%</span>
+						</div>
+						<div class="skills-bar flex">
+							<div class="skills-bar bar-fill">
+								<div class="bar-name flex">Photoshop</div>
+							</div>
+							<span class="bar-span">50%</span>
+						</div>
+						<div class="skills-bar flex">
+							<div class="skills-bar bar-fill">
+								<div class="bar-name flex">UI Desing</div>
+							</div>
+							<span class="bar-span">50%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section" id="portfolio">
+			<div class="container flex">
+				<h2 class="section-title animated" data-animation="slide-in-left">Projects</h2>
+				<div class="section-title-bar animated" data-animation="slide-in-right" data-delay="0.5s"></div>
+				<div class="flex label-wrap">
+					<div class="flex card-wrap animated" data-animation="slide-up" data-delay="0.3s">
+						<div class="card-img"></div>
+						<h4 class="card-title">Kopirska - Recruiting Agency</h4>
+						<a class="card-link" href="https://kopirska.com">View site</a>
+					</div>
+					<div class="flex card-wrap animated" data-animation="slide-up" data-delay="0.5s">
+						<div class="card-img"></div>
+						<h4 class="card-title">Eva - Landing</h4>
+						<a class="card-link" href="https://seniorenbetreuung-eva.de/ru/job/">View site</a>
+					</div>
+					<div class="flex card-wrap animated" data-animation="slide-up" data-delay="0.7s">
+						<div class="card-img"></div>
+						<h4 class="card-title">Gostreams - Sports Online</h4>
+						<a class="card-link" href="https://gostreams.info">View site</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="root-wrapper">
+			<div class="root-left"></div>
+			<div class="root-right"></div>
+		</div>
+		<section class="section" id="contact">
+			<div class="container flex">
+				<h2 class="section-title animated" data-animation="slide-in-left">Contact</h2>
+				<div class="section-title-bar animated" data-animation="slide-in-right" data-delay="0.5s"></div>
+				<p class="contact-text">Have a question or want to work together?</p>
+				<ul class="flex label-wrap">
+					<li class="icon-item"><a class="icon-link" href="https://t.me/artgo10" target="_blank"><img class="icon-img" src="images/telegram.png" alt="telegram_img"></a></li>
+					<li class="icon-item"><a class="icon-link" href="https://instagram.com/artemholoven" target="_blank"><img class="icon-img" src="images/instagram.png" alt="instagram_img"></a></li>
+					<li class="icon-item"><a class="icon-link" href="https://www.linkedin.com/in/artem-holoven-4762181b0/" target="_blank"><img class="icon-img" src="images/linkedin.png" alt="linkedin_img"></a></li>
+					<li class="icon-item"><a class="icon-link" href="mailto:artem.holoven@gmail.com" target="_blank"><img class="icon-img" src="images/gmail.png" alt="gmail_img"></a></li>
+					<li class="icon-item"><a class="icon-link" href="https://www.facebook.com/artem.holoven" target="_blank"><img class="icon-img" src="images/facebook.png" alt="facebook_img"></a></li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="page-link arrow-to-top flex" data-dest="home">⇧</div>
+		<div class="container flex">
+			<div class="footer-text">Artem Holoven <span class="footer-text-span">©2021</span></div>
+		</div>
+	</footer>
+<script src="scripts.js"></script>
+</body>
+</html>
