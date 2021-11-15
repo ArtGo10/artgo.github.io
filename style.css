@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: sans-serif;
+}
 .header {
   height: calc(100vh + 50px);
   background-image: url(images/bg.jpg);
@@ -325,7 +328,7 @@
 }
 #contact {
   background-color: #252934;
-  padding: 275px 0 200px;
+  padding: 300px 0 225px;
 }
 #contact .section-title {
   color: #fff;
