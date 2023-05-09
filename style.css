@@ -235,6 +235,15 @@ body {
 .skills-bar:nth-child(8) .bar-fill {
   transition: 1.8s 0.2s width ease-in-out;
 }
+.skills-bar:nth-child(9) .bar-fill {
+  transition: 1.9s 0.2s width ease-in-out;
+}
+.skills-bar:nth-child(10) .bar-fill {
+  transition: 2.0s 0.2s width ease-in-out;
+}
+.skills-bar:nth-child(11) .bar-fill {
+  transition: 2.1s 0.2s width ease-in-out;
+}
 .bar-name {
   width: 100px;
   color: #fff;
